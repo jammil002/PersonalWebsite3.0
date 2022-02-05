@@ -23,6 +23,28 @@ section {
 
 }
 
+.sectionOne {
+    text-align: center;
+    position: inherit;
+    display: inherit;
+    flex-direction: inherit;
+    align-items: inherit;
+    min-width: inherit;
+    padding: inherit;
+}
+
+.sectionTwo {
+    text-align: left;
+}
+
+.sectionThree {
+    text-align: center;
+}
+
+.finalSection {
+    text-align: center;
+}
+
 .logo img {
     max-width: 10%;
     height: auto;
