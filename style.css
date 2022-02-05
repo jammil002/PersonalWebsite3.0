@@ -54,3 +54,23 @@ section {
 .wave .shape-fill {
     fill: #2D3047;
 }
+
+.custom-shape-divider-top-1644025950 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1644025950 svg {
+    position: relative;
+    display: block;
+    width: calc(173% + 1.3px);
+    height: 174px;
+}
+
+.custom-shape-divider-top-1644025950 .shape-fill {
+    fill: #048A81;
+}
