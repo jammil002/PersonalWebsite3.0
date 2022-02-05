@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 body {
     margin: 0;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Bebas Neue', cursive;
     background-color: #2D3047;
     color: white;
+}
+
+h1 {
+    font-size: 40px;
 }
 
 section {
@@ -19,7 +24,7 @@ section {
 }
 
 .logo img {
-    max-width: 30%;
+    max-width: 10%;
     height: auto;
 }
 
@@ -30,6 +35,7 @@ section {
 .blue {
     background-color: #414B5F;
 }
+
 
 .green {
     background-color: #048A81;
