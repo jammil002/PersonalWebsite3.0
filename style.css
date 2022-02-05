@@ -43,14 +43,18 @@ section {
 
 .sectionThree {
     text-align: right;
-    align-items: right;
-
 
 }
 
-.finalSection {
+.sectionFour {
     text-align: center;
 }
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
 
 .purple {
     background-color: #A799B7;
