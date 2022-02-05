@@ -1,6 +1,6 @@
 const sectionOne = document.querySelector('.logo');
-const sectionTwo = document.querySelector('.blue');
-const sectionThree = document.querySelector('.purple');
+const sectionTwo = document.querySelector('.sectionOne');
+const sectionThree = document.querySelector('.sectionTwo');
 const sectionFour = document.querySelector('.final__section');
 
 const options = {
