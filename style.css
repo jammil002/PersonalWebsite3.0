@@ -23,14 +23,18 @@ section {
 
 }
 
+.logo {
+    padding: 80px 20vw;
+}
+
+.logo img {
+    align-items: center;
+    max-width: 30%;
+    height: auto;
+}
+
 .sectionOne {
     text-align: center;
-    position: inherit;
-    display: inherit;
-    flex-direction: inherit;
-    align-items: inherit;
-    min-width: inherit;
-    padding: inherit;
 }
 
 .sectionTwo {
@@ -38,16 +42,14 @@ section {
 }
 
 .sectionThree {
-    text-align: center;
+    text-align: right;
+    align-items: right;
+
+
 }
 
 .finalSection {
     text-align: center;
-}
-
-.logo img {
-    max-width: 10%;
-    height: auto;
 }
 
 .purple {
