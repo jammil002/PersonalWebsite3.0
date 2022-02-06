@@ -17,7 +17,7 @@ nav {
 
 .nav_links {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 40%;
     list-style: none;
 }
@@ -26,6 +26,16 @@ nav {
     color: white;
 }
 
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: white;
+}
 
 body {
     margin: 0;
@@ -36,6 +46,10 @@ body {
 
 h1 {
     font-size: 40px;
+}
+
+p {
+    font-size: 18px;
 }
 
 section {
@@ -131,4 +145,24 @@ section {
 
 .custom-shape-divider-top-1644025950 .shape-fill {
     fill: #048A81;
+}
+
+@media screen and (max-width:768px) {
+    .nav_links {
+        display: none;
+    }
+
+    .navlogo {
+        display: none;
+    }
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
 }
