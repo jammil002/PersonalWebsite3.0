@@ -1,6 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+
+}
+
+.navlogo {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    list-style: none;
+}
+
+.nav_links a {
+    color: white;
+}
+
 
 body {
     margin: 0;
@@ -20,16 +45,15 @@ section {
     align-items: center;
     min-width: 400px;
     padding: 100px 20vw;
-
 }
 
 .logo {
-    padding: 80px 20vw;
+    padding: 50px 20vw;
 }
 
 .logo img {
     align-items: center;
-    max-width: 30%;
+    max-width: 40%;
     height: auto;
 }
 
