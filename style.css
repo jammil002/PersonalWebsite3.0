@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+p {
+    font-size: 40px;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -26,16 +30,6 @@ nav {
     color: white;
 }
 
-.burger {
-    display: none;
-}
-
-.burger div {
-    width: 25px;
-    height: 3px;
-    margin: 5px;
-    background-color: white;
-}
 
 body {
     margin: 0;
@@ -59,6 +53,10 @@ section {
     align-items: center;
     min-width: 400px;
     padding: 100px 20vw;
+}
+
+.sectionOne a {
+    text-decoration-color: white;
 }
 
 .logo {
@@ -107,6 +105,10 @@ section {
     background-color: #048A81;
 }
 
+.yellow {
+    color: #e0ca3c;
+}
+
 .wave {
     position: absolute;
     top: 0;
@@ -147,7 +149,7 @@ section {
     fill: #048A81;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:568px) {
     .nav_links {
         display: none;
     }
@@ -157,12 +159,13 @@ section {
     }
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+.sectionFour a {
+    color: white;
+
+
 }
 
-.sticky+.content {
-    padding-top: 60px;
+.sectionFour {
+    color: white;
+
 }
