@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-p {
-    font-size: 40px;
-}
 
 nav {
     display: flex;
@@ -43,7 +40,8 @@ h1 {
 }
 
 p {
-    font-size: 18px;
+    line-height: 1.6;
+
 }
 
 section {
@@ -73,13 +71,31 @@ section {
     text-align: center;
 }
 
+.sectionOne p {
+    text-align: center;
+    font-size: 20px;
+}
+
 .sectionTwo {
     text-align: left;
 }
 
+.sectionTwo p {
+    font-size: 20px;
+}
+
 .sectionThree {
     text-align: right;
+}
 
+.sectionThree h1 {
+    align-items: right;
+    text-align: right;
+}
+
+.sectionThree p {
+    line-height: 1.0;
+    font-size: 20px;
 }
 
 .sectionFour {
