@@ -33,6 +33,7 @@ body {
     font-family: 'Bebas Neue', cursive;
     background-color: #2D3047;
     color: white;
+    margin-bottom:-1px;
 }
 
 h1 {
@@ -69,13 +70,13 @@ section {
 }
 
 .sectionOne {
+    width: 80%;
     text-align: center;
-    margin-bottom:-2px;
 }
 
 .sectionOne p {
-    text-align: center;
     font-size: 20px;
+    text-align: center;
 }
 
 .sectionTwo {
@@ -128,8 +129,8 @@ section {
     background-color: #048A81;
 }
 
-.red {
-    color: #F42941;
+.backroundtextblue {
+    color: #95afe5;
 }
 
 .wave {
@@ -187,10 +188,7 @@ section {
         max-width: 70%;
         height: auto;
     }
-    section {
-        width: 100vh; 
-        min-height: 100vh;
-    }
+    
 }
 .sectionFour a {
     color: white;
