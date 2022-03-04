@@ -51,6 +51,7 @@ section {
     align-items: center;
     min-width: 400px;
     padding: 100px 20vw;
+    margin-bottom:-1px
 }
 
 .sectionOne a {
