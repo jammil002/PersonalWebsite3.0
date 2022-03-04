@@ -63,7 +63,7 @@ section {
 
 .logo img {
     align-items: center;
-    max-width: 35%;
+    max-width: 40%;
     height: auto;
 }
 
@@ -126,8 +126,8 @@ section {
     background-color: #048A81;
 }
 
-.yellow {
-    color: #e0ca3c;
+.red {
+    color: #F42941;
 }
 
 .wave {
