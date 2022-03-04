@@ -33,7 +33,6 @@ body {
     font-family: 'Bebas Neue', cursive;
     background-color: #2D3047;
     color: white;
-    margin-bottom: 1px;
 }
 
 h1 {
@@ -136,8 +135,7 @@ section {
 
 .wave {
     position: absolute;
-    margin-bottom: -1;
-    top: 0;
+    top: -1px;
     left: 0;
     width: 100%;
     overflow: hidden;
