@@ -51,7 +51,7 @@ section {
     align-items: center;
     min-width: 400px;
     padding: 100px 20vw;
-    margin-bottom:-1px
+    margin-bottom:-1px;
 }
 
 .sectionOne a {
@@ -70,6 +70,7 @@ section {
 
 .sectionOne {
     text-align: center;
+    margin-bottom:-2px;
 }
 
 .sectionOne p {
@@ -188,7 +189,7 @@ section {
     }
     section {
         width: 100%; 
-        min-height: 100vh"
+        min-height: 100vh;
     }
 }
 .sectionFour a {
