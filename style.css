@@ -29,7 +29,7 @@ nav {
 
 
 body {
-    margin: 0;
+    margin: auto;
     font-family: 'Bebas Neue', cursive;
     background-color: #2D3047;
     color: white;
@@ -109,12 +109,6 @@ section {
     font-size: 20px;
 
 }
-
-.fade-in {
-    opacity: 0;
-    transition: opacity 250ms ease-in;
-}
-
 
 .purple {
     background-color: #A799B7;
