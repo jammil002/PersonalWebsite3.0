@@ -33,7 +33,7 @@ body {
     font-family: 'Bebas Neue', cursive;
     background-color: #2D3047;
     color: white;
-    margin-bottom:-1px;
+    margin-bottom: 1px;
 }
 
 h1 {
@@ -70,7 +70,6 @@ section {
 }
 
 .sectionOne {
-    margin-top: 1px;
     width: 80%;
     text-align: center;
 }
