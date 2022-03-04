@@ -136,6 +136,7 @@ section {
 
 .wave {
     position: absolute;
+    margin-bottom: -1;
     top: 0;
     left: 0;
     width: 100%;
@@ -144,7 +145,6 @@ section {
 }
 
 .wave svg {
-    margin-top: 1;
     position: relative;
     display: block;
     width: calc(173% + 1.3px);
@@ -183,15 +183,13 @@ section {
     .navlogo {
         display: none;
     }
-}
-@media only screen and (max-width: 576px) {
     .logo img {
         align-items: center;
         max-width: 70%;
         height: auto;
     }
-    
 }
+
 .sectionFour a {
     color: white;
 
