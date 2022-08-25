@@ -2,7 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/jameabhj/public_html/
-    - /bin/cp -R images $DEPLOYPATH
-    - /bin/cp -R Documents $DEPLOYPATH
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - -R images $DEPLOYPATH
+    - -R Documents $DEPLOYPATH
+    - index.html $DEPLOYPATH
+    - style.css $DEPLOYPATH
