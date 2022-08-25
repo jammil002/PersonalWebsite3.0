@@ -2,7 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/jameabhj/public_html/
-    - -R images $DEPLOYPATH
-    - -R Documents $DEPLOYPATH
-    - index.html $DEPLOYPATH
-    - style.css $DEPLOYPATH
+    - /bin/cp * $DEPLOYPATH
+
